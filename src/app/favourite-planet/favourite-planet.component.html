@@ -1,0 +1,6 @@
+<div class="container">
+    <h4 class="text-center">Favourite Planets</h4>
+    <ul *ngFor="let planet of planets">
+        <li *ngIf="planet.isFavourite == true">{{ planet.name }}</li>
+    </ul>
+</div>
